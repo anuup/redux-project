@@ -1,7 +1,7 @@
-import {useState} from 'react'
+
 import randomColor from 'randomcolor'
-function Aside() {
-  const [color, setColor] = useState("red")
+function Aside({color, setColor}) {
+  
   const newColor=randomColor()
   const changeColor=()=>{
 

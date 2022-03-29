@@ -1,6 +1,6 @@
-import {useState} from 'react'
-function Counter() {
-  const [count, setCount] = useState(4)
+
+function Counter({count,setCount}) {
+  
   const increment=()=>{
 setCount(count+1)
 
